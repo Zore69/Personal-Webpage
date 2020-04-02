@@ -1,0 +1,150 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("Self.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navCustom {
+  opacity: 1;
+  color: black;
+}
+
+.div {  
+
+  /* transition the background-color over 1s with a linear animation */
+  transition: background-color 1s linear;
+}
+
+.fill {
+  background-color: #191919;
+  padding-top: 10%;
+  color: white;
+  font-size: 16px;
+}
+
+.relative-immage {
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  
+}
+
+.greenborder {
+  border-style: solid;
+  border-color: #0000ff;
+}
+
+div.home-text-overlay {
+  position: absolute;
+  bottom: 50%;
+  top : 15%;
+  right: 15%;
+  left : 10%;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+  @media screen and (min-width: 601px) {
+    div.home-text-overlay {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.home-text-overlay {
+      font-size: 25px;
+    }
+  }
+
+
+.bottom-text-overlay {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  left: 38%;
+  color: gray;
+  width: 300px;
+}
+
+.frontpage-headder {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 8px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color :white;
+    padding-bottom: 10%;
+    ;
+}
+
+.about-centered-text-overlay {
+  margin: auto;
+  width: 80%;
+  ;
+}
+
+.aboutpage-headder {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 24px;
+  letter-spacing: 8px;
+  height: 1000%;
+  font-family: Arial, Helvetica, sans-serif;
+  color :white;
+}
+
+.about-paragraph{
+  width: 90%;
+  padding-top: 0px;;
+  ;
+}
+
+.scrollButton{
+  width:300px; 
+  height:130px;
+  padding:10px; 
+  text-align:center; 
+  color: grey;
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+  top:100%;
+  right:40px;
+  font-size: 1vw;
+}
+.scrollButton:hover{
+  cursor: pointer;
+  color: lightgray;
+  font-size: 1.1vw;
+}
+
+.iconDisplay{
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 5px;
+  max-width: 40px;
+}
+
+.iconImg {
+  max-width: 35px;
+}
+
+.iconImg:hover {
+  max-width: 40px;
+}
+;
